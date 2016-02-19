@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2D0B7981C779999009B5A6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0B7971C779999009B5A6D /* AppDelegate.swift */; };
+		E2D0B79A1C779999009B5A6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0B7991C779999009B5A6D /* ViewController.swift */; };
+		E2D0B79D1C779999009B5A6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D0B79B1C779999009B5A6D /* Main.storyboard */; };
+		E2D0B79F1C779999009B5A6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2D0B79E1C779999009B5A6D /* Assets.xcassets */; };
+		E2D0B7A21C779999009B5A6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D0B7A01C779999009B5A6D /* LaunchScreen.storyboard */; };
+		E2D0B7AD1C779999009B5A6D /* HackathonTempoTeamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0B7AC1C779999009B5A6D /* HackathonTempoTeamTests.swift */; };
+		E2D0B7B81C779999009B5A6D /* HackathonTempoTeamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0B7B71C779999009B5A6D /* HackathonTempoTeamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2D0B7A91C779999009B5A6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2D0B78C1C779998009B5A6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2D0B7931C779998009B5A6D;
+			remoteInfo = HackathonTempoTeam;
+		};
+		E2D0B7B41C779999009B5A6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2D0B78C1C779998009B5A6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2D0B7931C779998009B5A6D;
+			remoteInfo = HackathonTempoTeam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2D0B7941C779999009B5A6D /* HackathonTempoTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackathonTempoTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2D0B7971C779999009B5A6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2D0B7991C779999009B5A6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2D0B79C1C779999009B5A6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2D0B79E1C779999009B5A6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2D0B7A11C779999009B5A6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2D0B7A31C779999009B5A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2D0B7A81C779999009B5A6D /* HackathonTempoTeamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackathonTempoTeamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2D0B7AC1C779999009B5A6D /* HackathonTempoTeamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackathonTempoTeamTests.swift; sourceTree = "<group>"; };
+		E2D0B7AE1C779999009B5A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2D0B7B31C779999009B5A6D /* HackathonTempoTeamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackathonTempoTeamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2D0B7B71C779999009B5A6D /* HackathonTempoTeamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackathonTempoTeamUITests.swift; sourceTree = "<group>"; };
+		E2D0B7B91C779999009B5A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2D0B7911C779998009B5A6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D0B7A51C779999009B5A6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D0B7B01C779999009B5A6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2D0B78B1C779998009B5A6D = {
+			isa = PBXGroup;
+			children = (
+				E2D0B7961C779999009B5A6D /* HackathonTempoTeam */,
+				E2D0B7AB1C779999009B5A6D /* HackathonTempoTeamTests */,
+				E2D0B7B61C779999009B5A6D /* HackathonTempoTeamUITests */,
+				E2D0B7951C779999009B5A6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2D0B7951C779999009B5A6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2D0B7941C779999009B5A6D /* HackathonTempoTeam.app */,
+				E2D0B7A81C779999009B5A6D /* HackathonTempoTeamTests.xctest */,
+				E2D0B7B31C779999009B5A6D /* HackathonTempoTeamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2D0B7961C779999009B5A6D /* HackathonTempoTeam */ = {
+			isa = PBXGroup;
+			children = (
+				E2D0B7971C779999009B5A6D /* AppDelegate.swift */,
+				E2D0B7991C779999009B5A6D /* ViewController.swift */,
+				E2D0B79B1C779999009B5A6D /* Main.storyboard */,
+				E2D0B79E1C779999009B5A6D /* Assets.xcassets */,
+				E2D0B7A01C779999009B5A6D /* LaunchScreen.storyboard */,
+				E2D0B7A31C779999009B5A6D /* Info.plist */,
+			);
+			path = HackathonTempoTeam;
+			sourceTree = "<group>";
+		};
+		E2D0B7AB1C779999009B5A6D /* HackathonTempoTeamTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2D0B7AC1C779999009B5A6D /* HackathonTempoTeamTests.swift */,
+				E2D0B7AE1C779999009B5A6D /* Info.plist */,
+			);
+			path = HackathonTempoTeamTests;
+			sourceTree = "<group>";
+		};
+		E2D0B7B61C779999009B5A6D /* HackathonTempoTeamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2D0B7B71C779999009B5A6D /* HackathonTempoTeamUITests.swift */,
+				E2D0B7B91C779999009B5A6D /* Info.plist */,
+			);
+			path = HackathonTempoTeamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2D0B7931C779998009B5A6D /* HackathonTempoTeam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2D0B7BC1C779999009B5A6D /* Build configuration list for PBXNativeTarget "HackathonTempoTeam" */;
+			buildPhases = (
+				E2D0B7901C779998009B5A6D /* Sources */,
+				E2D0B7911C779998009B5A6D /* Frameworks */,
+				E2D0B7921C779998009B5A6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackathonTempoTeam;
+			productName = HackathonTempoTeam;
+			productReference = E2D0B7941C779999009B5A6D /* HackathonTempoTeam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2D0B7A71C779999009B5A6D /* HackathonTempoTeamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2D0B7BF1C779999009B5A6D /* Build configuration list for PBXNativeTarget "HackathonTempoTeamTests" */;
+			buildPhases = (
+				E2D0B7A41C779999009B5A6D /* Sources */,
+				E2D0B7A51C779999009B5A6D /* Frameworks */,
+				E2D0B7A61C779999009B5A6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2D0B7AA1C779999009B5A6D /* PBXTargetDependency */,
+			);
+			name = HackathonTempoTeamTests;
+			productName = HackathonTempoTeamTests;
+			productReference = E2D0B7A81C779999009B5A6D /* HackathonTempoTeamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2D0B7B21C779999009B5A6D /* HackathonTempoTeamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2D0B7C21C779999009B5A6D /* Build configuration list for PBXNativeTarget "HackathonTempoTeamUITests" */;
+			buildPhases = (
+				E2D0B7AF1C779999009B5A6D /* Sources */,
+				E2D0B7B01C779999009B5A6D /* Frameworks */,
+				E2D0B7B11C779999009B5A6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2D0B7B51C779999009B5A6D /* PBXTargetDependency */,
+			);
+			name = HackathonTempoTeamUITests;
+			productName = HackathonTempoTeamUITests;
+			productReference = E2D0B7B31C779999009B5A6D /* HackathonTempoTeamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2D0B78C1C779998009B5A6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Rydee;
+				TargetAttributes = {
+					E2D0B7931C779998009B5A6D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					E2D0B7A71C779999009B5A6D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E2D0B7931C779998009B5A6D;
+					};
+					E2D0B7B21C779999009B5A6D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E2D0B7931C779998009B5A6D;
+					};
+				};
+			};
+			buildConfigurationList = E2D0B78F1C779998009B5A6D /* Build configuration list for PBXProject "HackathonTempoTeam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2D0B78B1C779998009B5A6D;
+			productRefGroup = E2D0B7951C779999009B5A6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2D0B7931C779998009B5A6D /* HackathonTempoTeam */,
+				E2D0B7A71C779999009B5A6D /* HackathonTempoTeamTests */,
+				E2D0B7B21C779999009B5A6D /* HackathonTempoTeamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2D0B7921C779998009B5A6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D0B7A21C779999009B5A6D /* LaunchScreen.storyboard in Resources */,
+				E2D0B79F1C779999009B5A6D /* Assets.xcassets in Resources */,
+				E2D0B79D1C779999009B5A6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D0B7A61C779999009B5A6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D0B7B11C779999009B5A6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2D0B7901C779998009B5A6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D0B79A1C779999009B5A6D /* ViewController.swift in Sources */,
+				E2D0B7981C779999009B5A6D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D0B7A41C779999009B5A6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D0B7AD1C779999009B5A6D /* HackathonTempoTeamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D0B7AF1C779999009B5A6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D0B7B81C779999009B5A6D /* HackathonTempoTeamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2D0B7AA1C779999009B5A6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2D0B7931C779998009B5A6D /* HackathonTempoTeam */;
+			targetProxy = E2D0B7A91C779999009B5A6D /* PBXContainerItemProxy */;
+		};
+		E2D0B7B51C779999009B5A6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2D0B7931C779998009B5A6D /* HackathonTempoTeam */;
+			targetProxy = E2D0B7B41C779999009B5A6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2D0B79B1C779999009B5A6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2D0B79C1C779999009B5A6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2D0B7A01C779999009B5A6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2D0B7A11C779999009B5A6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2D0B7BA1C779999009B5A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2D0B7BB1C779999009B5A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2D0B7BD1C779999009B5A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HackathonTempoTeam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rydee.HackathonTempoTeam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E2D0B7BE1C779999009B5A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HackathonTempoTeam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rydee.HackathonTempoTeam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E2D0B7C01C779999009B5A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HackathonTempoTeamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rydee.HackathonTempoTeamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackathonTempoTeam.app/HackathonTempoTeam";
+			};
+			name = Debug;
+		};
+		E2D0B7C11C779999009B5A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HackathonTempoTeamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rydee.HackathonTempoTeamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackathonTempoTeam.app/HackathonTempoTeam";
+			};
+			name = Release;
+		};
+		E2D0B7C31C779999009B5A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HackathonTempoTeamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rydee.HackathonTempoTeamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HackathonTempoTeam;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E2D0B7C41C779999009B5A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HackathonTempoTeamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rydee.HackathonTempoTeamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HackathonTempoTeam;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2D0B78F1C779998009B5A6D /* Build configuration list for PBXProject "HackathonTempoTeam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2D0B7BA1C779999009B5A6D /* Debug */,
+				E2D0B7BB1C779999009B5A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2D0B7BC1C779999009B5A6D /* Build configuration list for PBXNativeTarget "HackathonTempoTeam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2D0B7BD1C779999009B5A6D /* Debug */,
+				E2D0B7BE1C779999009B5A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2D0B7BF1C779999009B5A6D /* Build configuration list for PBXNativeTarget "HackathonTempoTeamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2D0B7C01C779999009B5A6D /* Debug */,
+				E2D0B7C11C779999009B5A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2D0B7C21C779999009B5A6D /* Build configuration list for PBXNativeTarget "HackathonTempoTeamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2D0B7C31C779999009B5A6D /* Debug */,
+				E2D0B7C41C779999009B5A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2D0B78C1C779998009B5A6D /* Project object */;
+}
