@@ -14,17 +14,57 @@ class ViewController: UIViewController {
     
     @IBOutlet var userTextField: UITextField!
     @IBOutlet var passTextField: UITextField!
-    
-    // login button
+
+    // buttons
     
     @IBOutlet var loginButton: UIButton!
+    @IBOutlet var businessLoginButton: UIButton!
     
+    // labels
+    
+    @IBOutlet var loginStatus: UILabel! // Could either be employer or employee
+    
+    // bools
+    
+    var employee: Bool = true
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
         loginButton.layer.cornerRadius = 14
         
+        if employee {
+            loginStatus.text = "Werknemer";
+            businessLoginButton.setTitle("Als werkgever inloggen", forState: .Normal)
+        } else {
+            loginStatus.text = "Wergever";
+            businessLoginButton.setTitle("Als werknemer inloggen", forState: .Normal)
+        }
+        
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    // MARK - Functions
+    
+    func switchEmployeeAndEmployer() {
+        if employee {
+            loginStatus.text = "Werkgever";
+            businessLoginButton.setTitle("Als werknemer inloggen", forState: .Normal)
+            employee = false
+        } else {
+            loginStatus.text = "Werknemer";
+            businessLoginButton.setTitle("Als werkgever inloggen", forState: .Normal)
+            employee = true
+        }
+    }
+    
+    // MARK - IBActions
+    
+    @IBAction func businessLogin() {
+        
+        UIView.transitionWithView(loginStatus, duration: 0.5, options: UIViewAnimationOptions.TransitionCrossDissolve, animations: { () -> Void in
+            self.switchEmployeeAndEmployer()
+            }, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {

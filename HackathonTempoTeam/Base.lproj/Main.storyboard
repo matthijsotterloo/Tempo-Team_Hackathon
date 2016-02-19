@@ -35,33 +35,73 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s8U-xJ-XaB">
-                                <rect key="frame" x="227" y="241" width="147" height="42"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wTP-Ft-ke3">
+                                <rect key="frame" x="221" y="464" width="159" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="159" id="HZa-Z0-hFM"/>
+                                    <constraint firstAttribute="height" constant="30" id="awH-xW-kvz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Als werkgever inloggen"/>
+                                <connections>
+                                    <action selector="businessLogin" destination="BYZ-38-t0r" eventType="touchUpInside" id="A21-cB-mB5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Aj-ZB-CRW">
+                                <rect key="frame" x="221" y="258" width="159" height="41"/>
                                 <color key="backgroundColor" red="0.26274509800000001" green="0.2784313725" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="147" id="duH-7P-CXK"/>
-                                    <constraint firstAttribute="height" constant="42" id="eWp-P7-6KL"/>
+                                    <constraint firstAttribute="width" constant="159" id="YEv-S1-N5Q"/>
+                                    <constraint firstAttribute="height" constant="41" id="bFp-dy-YfW"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Inloggen">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Werkkwartiertje login" textAlignment="natural" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ruh-ww-QE3">
+                                <rect key="frame" x="203" y="37" width="195" height="69"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="qng-QP-eIn"/>
+                                    <constraint firstAttribute="width" constant="195" id="uK2-of-JRw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eld-i0-AI2">
+                                <rect key="frame" x="203" y="114" width="195" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="195" id="9PS-WW-TTO"/>
+                                    <constraint firstAttribute="height" constant="21" id="Wd4-3j-nfb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Eld-i0-AI2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2EB-Wl-OsQ"/>
                             <constraint firstItem="UmQ-ds-AcW" firstAttribute="top" secondItem="5wA-yQ-XVW" secondAttribute="bottom" constant="8" id="2Ze-PY-pC1"/>
-                            <constraint firstItem="s8U-xJ-XaB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9Q0-5g-6ae"/>
+                            <constraint firstItem="3Aj-ZB-CRW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2dN-Wo-Syp"/>
+                            <constraint firstItem="Ruh-ww-QE3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="17" id="7yg-Wn-YX6"/>
                             <constraint firstItem="5wA-yQ-XVW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ELr-nt-EyA"/>
+                            <constraint firstItem="3Aj-ZB-CRW" firstAttribute="top" secondItem="UmQ-ds-AcW" secondAttribute="bottom" constant="25" id="KEM-DY-AlZ"/>
                             <constraint firstItem="5wA-yQ-XVW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="145" id="LZl-TJ-oZK"/>
                             <constraint firstItem="UmQ-ds-AcW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vky-J1-DqR"/>
-                            <constraint firstItem="s8U-xJ-XaB" firstAttribute="top" secondItem="UmQ-ds-AcW" secondAttribute="bottom" constant="8" id="lNj-wu-SKO"/>
-                            <constraint firstItem="s8U-xJ-XaB" firstAttribute="top" secondItem="UmQ-ds-AcW" secondAttribute="bottom" constant="8" id="rCr-r5-cB6"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wTP-Ft-ke3" secondAttribute="bottom" constant="106" id="Weo-Gl-qne"/>
+                            <constraint firstItem="wTP-Ft-ke3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dgP-ed-MQY"/>
+                            <constraint firstItem="Eld-i0-AI2" firstAttribute="top" secondItem="Ruh-ww-QE3" secondAttribute="bottom" constant="8" id="e3J-UC-82H"/>
+                            <constraint firstItem="Ruh-ww-QE3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lep-hq-qN4"/>
                             <constraint firstItem="UmQ-ds-AcW" firstAttribute="top" secondItem="5wA-yQ-XVW" secondAttribute="bottom" constant="8" id="tjY-xf-nII"/>
+                            <constraint firstItem="Eld-i0-AI2" firstAttribute="top" secondItem="Ruh-ww-QE3" secondAttribute="bottom" constant="8" id="wK2-EK-RS6"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="loginButton" destination="s8U-xJ-XaB" id="uAL-ae-mpY"/>
+                        <outlet property="businessLoginButton" destination="wTP-Ft-ke3" id="nhY-sj-7Ch"/>
+                        <outlet property="loginButton" destination="3Aj-ZB-CRW" id="IVk-DP-zUe"/>
+                        <outlet property="loginStatus" destination="Eld-i0-AI2" id="W07-GR-Wkt"/>
                         <outlet property="passTextField" destination="UmQ-ds-AcW" id="0vT-tN-dt8"/>
                         <outlet property="userTextField" destination="5wA-yQ-XVW" id="sk7-Bf-pNs"/>
                     </connections>

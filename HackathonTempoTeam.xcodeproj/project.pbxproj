@@ -15,7 +15,6 @@
 		E2D0B7A21C779999009B5A6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D0B7A01C779999009B5A6D /* LaunchScreen.storyboard */; };
 		E2D0B7AD1C779999009B5A6D /* HackathonTempoTeamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0B7AC1C779999009B5A6D /* HackathonTempoTeamTests.swift */; };
 		E2D0B7B81C779999009B5A6D /* HackathonTempoTeamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0B7B71C779999009B5A6D /* HackathonTempoTeamUITests.swift */; };
-		E2D0B7C71C77A265009B5A6D /* BEXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0B7C61C77A265009B5A6D /* BEXML.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +51,6 @@
 		E2D0B7B31C779999009B5A6D /* HackathonTempoTeamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackathonTempoTeamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D0B7B71C779999009B5A6D /* HackathonTempoTeamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackathonTempoTeamUITests.swift; sourceTree = "<group>"; };
 		E2D0B7B91C779999009B5A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E2D0B7C61C77A265009B5A6D /* BEXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BEXML.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +121,6 @@
 		E2D0B7961C779999009B5A6D /* HackathonTempoTeam */ = {
 			isa = PBXGroup;
 			children = (
-				E2D0B7C51C77A246009B5A6D /* BE */,
 				E2D0B7971C779999009B5A6D /* AppDelegate.swift */,
 				E2D0B7991C779999009B5A6D /* ViewController.swift */,
 				E2D0B79B1C779999009B5A6D /* Main.storyboard */,
@@ -150,14 +147,6 @@
 				E2D0B7B91C779999009B5A6D /* Info.plist */,
 			);
 			path = HackathonTempoTeamUITests;
-			sourceTree = "<group>";
-		};
-		E2D0B7C51C77A246009B5A6D /* BE */ = {
-			isa = PBXGroup;
-			children = (
-				E2D0B7C61C77A265009B5A6D /* BEXML.swift */,
-			);
-			name = BE;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,7 +333,6 @@
 			files = (
 				E2D0B79A1C779999009B5A6D /* ViewController.swift in Sources */,
 				E2D0B7981C779999009B5A6D /* AppDelegate.swift in Sources */,
-				E2D0B7C71C77A265009B5A6D /* BEXML.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
