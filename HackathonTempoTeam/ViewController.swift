@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  HackathonTempoTeam
 //
-//  Created by Tom de ruiter on 19/02/16.
-//  Copyright © 2016 Rydee. All rights reserved.
+//  Created by Tom de Ruiter on 19/02/16.
+//  Copyright © 2016 Tom de Ruiter. All rights reserved.
 //
 
 import UIKit
