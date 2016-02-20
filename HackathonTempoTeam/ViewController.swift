@@ -37,7 +37,7 @@ class ViewController: UIViewController {
             loginStatus.text = "Werknemer";
             businessLoginButton.setTitle("Als werkgever inloggen", forState: .Normal)
         } else {
-            loginStatus.text = "Wergever";
+            loginStatus.text = "Werkgever";
             businessLoginButton.setTitle("Als werknemer inloggen", forState: .Normal)
         }
         
@@ -63,6 +63,7 @@ class ViewController: UIViewController {
     @IBAction func businessLogin() {
         
         UIView.transitionWithView(loginStatus, duration: 0.5, options: UIViewAnimationOptions.TransitionCrossDissolve, animations: { () -> Void in
+            print(Profile().name)
             self.switchEmployeeAndEmployer()
             }, completion: nil)
     }
